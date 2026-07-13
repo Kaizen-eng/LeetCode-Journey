@@ -43,3 +43,7 @@ This pattern is commonly used in:
 - Majority Element
 - Intersection of Arrays
 - Counting Problems
+  
+---
+
+Built as part of my daily LeetCode journey to strengthen problem-solving and prepare for software engineering interviews.
