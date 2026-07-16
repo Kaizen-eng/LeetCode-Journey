@@ -1,6 +1,4 @@
 // HashMap approach
-import java.util.HashMap;
-
 class Solution {
 
     public int sumOfUnique(int[] nums) {
