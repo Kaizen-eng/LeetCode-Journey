@@ -1,0 +1,53 @@
+# Day 372 - Count Good Triplets
+
+## Core Idea
+
+The problem asks us to find every combination of three indices:
+
+```
+i < j < k
+and verify whether the three pairs satisfy their respective limits.
+The three required conditions are:
+|arr[i] - arr[j]| <= a
+|arr[j] - arr[k]| <= b
+|arr[i] - arr[k]| <= c
+If all three are satisfied, the triplet is good.
+Thought Process
+At first, this problem may look like it needs some clever optimization.
+But the constraints make brute force completely reasonable.
+Since we need three indices, three nested loops naturally fit the problem.
+The important part is setting the starting points correctly:
+j = i + 1
+k = j + 1
+This automatically guarantees:
+i < j < k
+So we don't need an additional condition to verify the index ordering.
+Checking the Triplet
+For every (i, j, k), calculate:
+Math.abs(arr[i] - arr[j])
+Math.abs(arr[j] - arr[k])
+Math.abs(arr[i] - arr[k])
+Then compare each result with:
+a
+b
+c
+respectively.
+Only when all three comparisons are true do we increment the answer.
+Why Brute Force Works
+There are at most O(n³) possible triplets.
+Because the constraints are small, checking every triplet is fast enough.
+This is a good example of why we should always look at the constraints before trying to optimize a solution.
+Pattern
+for i
+    for j = i + 1
+        for k = j + 1
+
+            if all three conditions are satisfied
+                count++
+Complexity
+Time Complexity: O(n³)
+Space Complexity: O(1)
+Lesson Learned
+Don't optimize before you need to.
+A simple solution that comfortably fits the constraints is often better than introducing unnecessary complexity.
+For this problem, three loops + three conditions = clean solution. 😌
