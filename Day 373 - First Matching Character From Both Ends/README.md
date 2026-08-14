@@ -6,7 +6,6 @@ You are given a string `s` consisting of lowercase English letters.
 
 Return the smallest index `i` such that:
 
-```text
 s[i] == s[n - i - 1]
 where n is the length of the string.
 If no such index exists, return -1.
