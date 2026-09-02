@@ -1,6 +1,6 @@
 # ✦ LeetCode 2678 — Number of Senior Citizens
 
-**Day 391 of my LeetCode Journey**
+**Day 392 of my LeetCode Journey**
 
 ## ✦ Problem
 
