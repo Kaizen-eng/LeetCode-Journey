@@ -68,10 +68,12 @@ Integer.parseInt()
 5. Check whether the age is greater than 60.
 6. If yes, increment count.
 7. Return count.
+   
 ✦ Key Learning
 This problem teaches a very useful pattern:
 Extract → Convert → Compare → Count
 It is especially useful when working with fixed-format Strings.
+
 ✦ Java Syntax to Remember
 Extract part of a String
 str.substring(start, end);
@@ -79,16 +81,19 @@ Convert String to int
 Integer.parseInt(str);
 Convert and extract together
 Integer.parseInt(str.substring(11, 13));
+
 ✦ Complexity
 Let n be the number of passengers.
 Time Complexity: O(n)
 We examine each passenger once.
 Space Complexity: O(1)
 Only a constant amount of extra space is used.
+
 ✦ Final Takeaway
 A seemingly simple problem can teach useful fundamentals.
 The most important line from today's problem:
 int age = Integer.parseInt(str.substring(11, 13));
+
 ✦ substring() → extracts the required characters.
 ✦ Integer.parseInt() → converts the String into an integer.
 ✦ Together → we can directly process structured String data.
