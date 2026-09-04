@@ -36,8 +36,10 @@ For the suffix:
 Arrays.stream(nums, i, nums.length)
 
 ##⏱️ Complexity
+
 - Time: O(n²)
 - Space: O(1) auxiliary space
 
 ##🎯 Key Learning
+
 Understanding inclusive vs exclusive ranges is essential when working with Java Streams.
