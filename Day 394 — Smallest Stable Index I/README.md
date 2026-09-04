@@ -35,11 +35,11 @@ is required to include index i.
 For the suffix:
 Arrays.stream(nums, i, nums.length)
 
-##⏱️ Complexity
+## ⏱️ Complexity
 
 - Time: O(n²)
 - Space: O(1) auxiliary space
 
-##🎯 Key Learning
+## 🎯 Key Learning
 
 Understanding inclusive vs exclusive ranges is essential when working with Java Streams.
