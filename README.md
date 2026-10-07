@@ -16,12 +16,11 @@
 |---|---:|
 | 🧩 Problems Solved | 341+ |
 | 💻 Language | Java |
-| 🔥 Current Streak | 341 Days |
 | 📚 Focus | DSA & Problem Solving |
 
 ## 📂 Repository Structure
 
-Each problem is organized into its own folder:
+Each problem is organized into its own folder like:
 
 ```text
 Day-341-Relative-Sort-Array/
