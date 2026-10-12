@@ -1,6 +1,6 @@
 # 🚀 LeetCode Journey
 
-> Daily LeetCode practice in Java — solving, learning, documenting, and improving one problem at a time.
+> Daily LeetCode practice in Java & Python — solving, learning, documenting, and improving one problem at a time.
 
 ## 🎯 Goals
 
@@ -15,7 +15,7 @@
 | Metric | Progress |
 |---|---:|
 | 🧩 Problems Solved | 341+ |
-| 💻 Language | Java |
+| 💻 Language | Java, Python |
 | 📚 Focus | DSA & Problem Solving |
 
 ## 📂 Repository Structure
