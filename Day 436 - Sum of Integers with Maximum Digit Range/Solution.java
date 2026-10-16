@@ -1,6 +1,6 @@
 
 class Solution {
-    public int sumOfIntegersWithMaximumDigitRange(int[] nums) {
+    public int maxDigitRange(int[] nums) {
         int maxRange = -1;
         int sum = 0;
 
