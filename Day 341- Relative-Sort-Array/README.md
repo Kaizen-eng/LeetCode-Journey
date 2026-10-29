@@ -3,7 +3,7 @@
 ## 📌 Problem
 
 **LeetCode 1122 - Relative Sort Array**
-
+ 
 Given two arrays `arr1` and `arr2`, sort `arr1` such that:
 - Elements appearing in `arr2` come first and follow the same relative order as in `arr2`.
 - Remaining elements are placed at the end in ascending order.
