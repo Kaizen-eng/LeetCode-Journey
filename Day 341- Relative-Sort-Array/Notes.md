@@ -18,7 +18,7 @@
 - Initially thought `getOrDefault(num + 1, 1)` was correct.
 - Forgot that `Arrays.sort()` is used instead of `arr.sort()`.
 
----
+--- 
 
 ## 🔄 Alternative Approach
 
